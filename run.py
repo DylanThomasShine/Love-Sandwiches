@@ -54,7 +54,7 @@ def validate_data(values):
         return False
 
     return True
-
+"""
 def update_sales_worksheet(data):
     """
     Update sales worksheet, add new row with the list data provided.
@@ -72,6 +72,7 @@ def update_surplus_worksheet(data):
     surplus_worksheet = SHEET.worksheet("surplus")
     surplus_worksheet.append_row(data)
     print("Surplus worksheet added successfully.\n")
+"""
 
 def update_worksheet(data, worksheet):
     """
